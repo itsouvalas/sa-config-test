@@ -112,7 +112,7 @@ On the first run we will see important log lines related to the config server:
 
 :heavy_exclamation_mark: **Important**
 
-The communication to the dpeloyed services requires the presence of valid certificates. Make sure that using `curl` without the `-k` option from the application(`cf ssh sc-config-test`) to the deployed services returns anything but an ssl error.
+The communication to the deployed services requires the presence of valid certificates. Make sure that using `curl` without the `-k` option from the application(`cf ssh sc-config-test`) to the deployed services returns anything but an ssl error.
 
 ## Testing the service-registry
 
