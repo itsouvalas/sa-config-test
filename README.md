@@ -126,7 +126,7 @@ In this example we can see two instances of the `CONFIG-TEST` app and one of the
 
 ## Testing the config-server
 
-The [Spring Cloud Config Server](https://cloud.spring.io/spring-cloud-config/multi/multi__spring_cloud_config_server.html) _provides an HTTP resource-based API for external configuration (name-value pairs or equivalent YAML content)_. In order fo the service to be instantiated you need to provide a config file in `json` format so that it serves the corresponding properties of the spring cloud app that uses it:
+The [Spring Cloud Config Server](https://cloud.spring.io/spring-cloud-config/multi/multi__spring_cloud_config_server.html) _provides an HTTP resource-based API for external configuration (name-value pairs or equivalent YAML content)_. In order for the service to be instantiated you need to provide a config file in `json` format so that it serves the corresponding properties of the spring cloud app that uses it:
 
 `configtest-config.json`
 
